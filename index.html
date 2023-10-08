@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+   <div class="header" id="header">
+    <nav>
+        <h1 class="name"><span>S</span>aksham.</h1>
+       <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <ion-icon name="close" class="close" onclick="closemenu()"></ion-icon>
+       </ul>
+       <ion-icon class="menu" name="menu" onclick="openmenu()"></ion-icon>
+    </nav>
+    <div id="home">
+        <p> Web Developer</p> 
+        <h2>Hi, I'm <span>Saksham</span> Jain From Indore</h2>
+    </div>
+   </div>
+   <div id="about">
+     <div class="col1">
+        <img src="images/IMG-20211225-WA0039-01.jpeg">
+     </div>
+     <div class="col2">
+        <h1>About me</h1>
+        <p>I'm a undergraduate Mechanical Engineering student having keen interest in programming and development. Proficient in programming languages such as javascript, C, C++ with a foundation in data structures and algorithms. Actively seeking opportunities to combine my technical knowledge with programming & development skills to drive innovative solutions.</p>
+        <ul class="tabs">
+            <li class="tab active-link" onclick="opentab('skills')">Skills</li>
+            <li class="tab" onclick="opentab('experience')">Experience</li>
+            <li class="tab" onclick="opentab('education')">Education</li>
+        </ul>
+        <div id="skills" class="tab-contents active-tab" >
+            <ul>
+                <li><span>Tech Skills</span><br>
+                    HTML5 | CSS3 | javascript | C | C++ | Data structures & algorithms | Github | VScode | Engineering graphics | AutoCad | problem solving | Mechanics of materials </li>
+                <li><span>Soft Skills </span><br>
+                Adaptability | Time management | Written communication | Microsoft Word | Microsoft Excel | Microsoft powerpoint | Team work | communication</li>    
+
+            </ul>
+        </div>
+        <div id="experience" class="tab-contents">
+            <ul>
+                <li><span>Sep 2023 - Present</span><br>
+                   Web development intern at Bharat Intern.</li>
+                <li><span>Sep 2023 - Oct 2023</span><br>
+                   Web development intern at Oasis Infobyte.</li>    
+                <li><span>Jun 2023 - Jul 2023</span><br>
+                    Summer Trainee at P.A.T.H. India ltd.</li>
+                <li><span>Feb 2023 - May 2023</span><br>
+                Human Resource intern at Simmi foundation.</li>    
+            </ul>
+        </div>
+        <div id="education" class="tab-contents">
+            <ul>
+                <li><span>2021 - 2025</span><br>
+                B.Tech in Mechanical Engineering from SGSITS,Indore <br>CGPA : 7.35/10</li>
+                <li><span>2020</span><br>
+                12th(PCM) from Orchid's H.S. School,Gwalior <br>Marks : 88%</li>    
+                <li><span>2017</span><br>
+                10th from Orchid's H.S. School,Gwalior <br>Marks : 91%</li>
+            </ul>
+        </div>
+     </div>
+   </div>
+   <div id="services">
+    <h1>My Services</h1>
+    <div class="services-content">
+    <div>
+        <ion-icon name="code-slash"></ion-icon>
+        <h3>Software Development</h3>
+        <p>Proficient in programming languages like C, C++, javascript & basic data structures and algorithms to offer custom software development services for desktop application or system-level programming.</p>
+        <a href="#">learn more</a>
+    </div>
+    <div>
+        <ion-icon name="crop"></ion-icon>
+        <h3>Responsive Web Design</h3>
+        <p>Skilled in creating websites from scratch using HTML, CSS, javascript that look and function beautifully on all devices, from desktop to mobile phones.</p>
+        <a href="#">learn more</a>
+    </div>
+    <div>
+        <ion-icon name="desktop"></ion-icon>
+        <h3>Mechanical Design</h3>
+        <p>Skilled in Engineering graphics and AutoCad to offer services for mechanical engineering and product design ,including 2D and 3D modeling & assembly drawings</p>
+        <a href="#">learn more</a>
+    </div>
+    </div>
+   </div>
+   <div id="portfolio">
+      <h1>My Work</h1>
+      <div class="portfolio-content">
+        <div class="work">
+          <img src="images/work-1.jpg">
+          <div class="project">
+           <h3>To-Do List App</h3>
+           <p>This web application empowers users to organise their task seamlessly having features like add,edit,delete,marked & unmarked.</p>
+           <a href="https://github.com/Sakshamjain0081/oibsip_taskno.3"><ion-icon name="navigate"></ion-icon></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.jpg">
+          <div class="project">
+            <h3>Login & Registration Authentication</h3>
+            <p>This is the frontend part of the login and registration web authentication system.</p>
+            <a href="https://github.com/Sakshamjain0081/oibsip_taskno.4"><ion-icon name="navigate"></ion-icon></a>
+          </div>  
+        </div>
+        <div class="work">
+          <img src="images/work-3.png">
+          <div class="project">
+            <h3>Netflix Clone</h3>
+            <p>This web page is responsive design for a seamless user experience on any screen size.</p>
+            <a href="https://github.com/Sakshamjain0081/bharat_intern_task3"><ion-icon name="navigate"></ion-icon></a>
+          </div>  
+        </div>
+      </div>
+      <a href="https://github.com/Sakshamjain0081" class="seemore-link">See more on Github</a>
+   </div>
+   <div id="contact">
+      <div class="contact-content">
+        <div class="contact-left">
+          <h1>Contact Me</h1>
+          <p><ion-icon name="paper-plane"></ion-icon>sakshamjain0081@gmail.com</p>
+          <div class="social-links">
+          <a href="https://www.facebook.com/saksham.jain.1426"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="https://instagram.com/sakshhh_278?igshid=OGQ5ZDc2ODk2ZA=="><ion-icon name="logo-instagram"></ion-icon></a>
+          <a href="https://www.linkedin.com/in/saksham-jain-25a5b0236/"><ion-icon name="logo-linkedin"></ion-icon></a>       
+        </div>
+        <a class="my-cv" href="Saksham_CV.pdf">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy Saksham. Made with <ion-icon name="heart"></ion-icon> by Saksham Jain</p>
+      </div>
+   </div>
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbyxzeB9adA1ymrQszE1aVYxC2WiBOuJA4DiiAfH-lgrLkbYevimgYIxbKpY_3A1-bS_/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML= "Message sent successfully"
+            setTimeout(() => {
+              msg.innerHTML=""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+</body>
+</html>

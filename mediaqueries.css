@@ -1,0 +1,209 @@
+@media only screen and (max-width: 600px){
+    .header{
+        background-position: bottom;
+        height: auto;
+    }
+    .header h1{
+        font-size: 20px;
+        font-weight: 300;
+        text-align: end;
+    }
+    nav{
+        display: block;
+    }
+    nav ul li a{    
+        font-size: 16px;
+        font-weight: 300;
+    }
+    nav ion-icon{
+        display: block;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    nav ul ion-icon{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        cursor: pointer;
+    }
+    nav .menu{
+        position: absolute;
+        left: 5%;
+        top: 15px;
+        cursor: pointer;
+    }
+    #home{
+        text-align: end;
+        margin-top: 100%;
+        font-size: 20px;
+    }
+    #home p{
+        font-size: 15px;
+    }
+    #home h2{
+        margin-top: 10px;
+        margin-left: 190px;
+        width: 150px;
+        font-size: 15px;
+    }
+    nav ul{
+        display: block;
+        background: #ff0047;
+        padding-top: 25px;
+        width: 150px;
+        position: absolute;
+        top: 0;
+        left: -150px;
+        height: 500px;
+        z-index: 2;
+    }
+    .opennavbar{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    nav ul li{
+        margin: 25px;
+        display: block;
+    }
+
+    #about{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 20px 5%;
+    }
+    #about .col1{
+    flex-basis: 0%;
+    
+    }
+    #about .col2{
+    flex-basis: 0%;
+    }
+    #about .col1 img{
+    margin-top: 30px;
+    width: 65%;
+    height: auto;
+    margin-left: 40px;
+    }
+    #about .col2 h1{
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 35px;
+        text-align: start;
+        margin-left: 100px;
+    }
+    #about .col2 p{
+     width: 90%; 
+     font-size: 14px;  
+    }
+    
+    #services h1{
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 15px;
+        margin-left: 100px;
+    }
+    .services-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .services-content div{
+        margin-bottom: 40px;
+    }
+    .services-content div:hover{
+        background: #5f0220;
+        transform: translateY(-5px);
+    }
+    .services-content h3{
+        font-size: 18px;
+    }
+    .services-content div ion-icon{
+        font-size: 30px;
+        margin-bottom: 14px;
+    }
+    .services-content p{
+        font-size: 14px;
+    }
+    #portfolio h1{
+        font-size: 30px;
+        font-weight: 300;
+        margin-left: 100px;
+        margin-bottom: 20px;
+        margin-top: -30px;
+    }
+    .portfolio-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+    }
+    .portfolio-content .work{
+        margin-bottom: 30px;
+        width: 100%;
+        flex-basis: 100%;
+        border-radius: 20px;
+    }
+    .portfolio-content .work img{
+        height: 250px;
+        border-radius: 20px;
+    }
+    .project h3{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .project p{
+        font-size: 14px;
+    }
+    #portfolio .seemore-link{
+        font-size: 15px;
+        margin-top: 30px;
+        margin-left: 80px;
+        padding: 8px 15px;
+        border-radius: 15px;
+    }
+    .contact-content{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    .contact-left{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .contact-right{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    #contact .contact-left h1{
+        font-size: 30px;
+        font-weight: 300;
+    }
+    form input, form textarea{
+        font-size: 15px;
+    }
+    form button{
+        font-size: 15px;
+    }
+    #msg{
+        font-size: 15px;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .copyright{
+        width: 100%;
+        background: #262626;
+        padding: 20px 0;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+}
